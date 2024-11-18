@@ -1,0 +1,27 @@
+{
+    "name": "Mishka",
+    "description": "A simple and adorable illustration of a bear peeking over a line. Perfect for collectors of minimalist and charming animal art.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYhAWnCwrmacJ6ijXhrTJ1agsUkKfj59JABNbepAuwWZc",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "White"
+      },
+      {
+        "trait_type": "Character",
+        "value": "Bear"
+      },
+      {
+        "trait_type": "Pose",
+        "value": "Peeking"
+      },
+      {
+        "trait_type": "Color",
+        "value": "Brown"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Neutral"
+      }
+    ]
+  }

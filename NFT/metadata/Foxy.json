@@ -1,0 +1,31 @@
+{
+    "name": "Foxy",
+    "description": "A charming cartoon fox character with closed eyes, sitting in a happy pose with a cute smile. Perfect for animal lovers and collectors of adorable digital art.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPt7dvH8bzdv2XJV3zkwss48tcXDo752BMfuxg91adUNa",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Character",
+        "value": "Fox"
+      },
+      {
+        "trait_type": "Pose",
+        "value": "Sitting"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy"
+      },
+      {
+        "trait_type": "Color",
+        "value": "Orange and White"
+      },
+      {
+        "trait_type": "Feet",
+        "value": "Pink Paws"
+      }
+    ]
+  }
