@@ -93,7 +93,7 @@ contract AppNFT
         'The call of getTimeOfMint(uint256) was not successful');
         (uint256 time) = abi.decode(data1, (uint256));
         
-        uint256 change = time + status - block.timestamp;
+        uint256 change = time + (block.timestamp - status);
         NFTFitness(NFTContractsERC721[gymID]).changeMintTime(tokenId, change);
         NFTFitness(NFTContractsERC721[gymID]).updateJson(tokenId, 1, tariff, date, visits);
     }
