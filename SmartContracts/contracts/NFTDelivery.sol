@@ -48,7 +48,7 @@ contract FoodDeliverySubscriptionToHealthyFood is ERC721URIStorage, ERC721Enumer
             '<text x="50%" y="40%" class="base" dominant-baseline="middle" text-anchor="middle">', "Tarrif: ", tarrif, '</text>',
             '<text x="50%" y="50%" class="base" dominant-baseline="middle" text-anchor="middle">', "Calories: ", Strings.toString(callories), '</text>',
             '<text x="50%" y="60%" class="base" dominant-baseline="middle" text-anchor="middle">', "Meals per day: ", Strings.toString(mealsPerDay), '</text>',
-            '<text x="50%" y="70%" class="base" dominant-baseline="middle" text-anchor="middle">', "Plan: ", Strings.toString(plan), '" day meals"</text>',
+            '<text x="50%" y="70%" class="base" dominant-baseline="middle" text-anchor="middle">', "Plan: ", Strings.toString(plan), '</text>',
             '</svg>');
         return string(abi.encodePacked("data:image/svg+xml;base64,",Base64.encode(image)));
     }
