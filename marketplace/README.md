@@ -1,9 +1,59 @@
-## Запуск маркетплейса с помощью Docker
 
-1. Скачайте с Google Drive файл marketplace14transfer.tar по ссылке: <https://drive.google.com/drive/folders/1Lv7sW_-4DovdejO9KlFRD7jGHFHMrUQS?usp=sharing>
-2. В терминале из директории, которая содержит файл marketplace14transfer.tar, запустите команду:
-   ```docker load --input marketplace14transfer.tar```
-  Файл появится в разделе Containers в приложении Docker Desktop.
-3. В приложении Docker Desktop откройте терминал и введите команду
-   ```docker run -p 3000:3000 marketplace14transfer```
+![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
 
+# thirdweb-next-starter
+
+Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+
+## Installation
+
+Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+
+```bash
+  npx thirdweb create app --next
+```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file:
+
+`CLIENT_ID`
+
+To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
+
+## Run locally
+
+Install dependencies
+
+```bash
+yarn
+```
+
+Start development server
+
+```bash
+yarn dev
+```
+
+Create a production build
+
+```bash
+yarn build
+```
+
+Preview the production build
+
+```bash
+yarn start
+```
+
+## Resources
+
+- [Documentation](https://portal.thirdweb.com/typescript/v5)
+- [Templates](https://thirdweb.com/templates)
+- [YouTube](https://www.youtube.com/c/thirdweb)
+- [Blog](https://blog.thirdweb.com)
+
+## Need help?
+
+For help or feedback, please [visit our support site](https://thirdweb.com/support)
