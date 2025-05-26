@@ -59,12 +59,12 @@ contract CharitytoKoteyka is ERC721, ERC721URIStorage, ERC721Enumerable, Ownable
     {
         string memory rank;
         string memory color;
-        if((1 ether <= donations / 1 ether) && (donations / 1 ether < 2 ether))
+        if(1 ether <= donations && donations < 2 ether)
         {
             rank = 'Silver';
             color = '#C0C0C0';
         }
-        else if (donations / 1 ether >= 2 ether)
+        else if (donations >= 2 ether)
         {
             rank = 'Gold';
             color = '#FFD700';
