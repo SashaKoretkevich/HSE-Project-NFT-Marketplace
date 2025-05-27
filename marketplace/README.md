@@ -1,15 +1,59 @@
-## NFT Marketplace Hosting ##
 
-If you want to locally delpoy the app on your device, you should do he following:
+![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
 
-1. Download the marketplace files from the repository.
-2. In the project directory run the following commands to install necessary libraries:
-   
-   npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
-   
-   npm install -g @thirdweb-dev/cli@0.6.15
-   
-   npm i @chakra-ui/react@2 @emotion/react @emotion/styled framer-motion
-   
-   npm install react-hook-form
-3. Run the 'yarn dev' command in the terminal. The localhost with the marketplace will appear as a result.
+# thirdweb-next-starter
+
+Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+
+## Installation
+
+Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+
+```bash
+  npx thirdweb create app --next
+```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file:
+
+`CLIENT_ID`
+
+To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
+
+## Run locally
+
+Install dependencies
+
+```bash
+yarn
+```
+
+Start development server
+
+```bash
+yarn dev
+```
+
+Create a production build
+
+```bash
+yarn build
+```
+
+Preview the production build
+
+```bash
+yarn start
+```
+
+## Resources
+
+- [Documentation](https://portal.thirdweb.com/typescript/v5)
+- [Templates](https://thirdweb.com/templates)
+- [YouTube](https://www.youtube.com/c/thirdweb)
+- [Blog](https://blog.thirdweb.com)
+
+## Need help?
+
+For help or feedback, please [visit our support site](https://thirdweb.com/support)
