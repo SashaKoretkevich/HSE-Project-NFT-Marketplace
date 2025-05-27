@@ -4,3 +4,4 @@ This repository contains the files for coursework project "NFT Marketplace Platf
 
 1. SmartContracts: keeps the smart contracts, which were used in the project
 2. marketplace: contains the files required to build up the marketplace
+3. gym: consists of files that are needed to launch the application 
