@@ -4,7 +4,7 @@ const ABI = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{
 const CONTRACT_ADDRESS = '0xB23b3F8029a808b56a7b25EF16E50D37A35Da6DB';
 
 exports.handler = async function (credentials) {
-  const provider = new ethers.providers.JsonRpcProvider('https://sepolia.infura.io/v3/3a1a69dab92f4df0a5f5883c93f7613d');
+  const provider = new ethers.providers.JsonRpcProvider('YourInfuraURL');
   const contract = new ethers.Contract(CONTRACT_ADDRESS, ABI, provider);
 
   const now = Math.floor(Date.now() / 1000);
